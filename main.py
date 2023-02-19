@@ -14,6 +14,8 @@ def main_menu():
             functions.check_notes_before_read()
         elif user_number == '2':
             functions.check_notes_before_add()
+        elif user_number == '3':
+            functions.notes_editor()
         else: sys.exit()
 
 main_menu()
